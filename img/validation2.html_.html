@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/BRISTI/OneDrive/Desktop/js/validation2.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+	<script type="text/javascript">
+		// function on()
+		// {
+		// let a=document.getElementById("p").value.trim();
+		// let d=document.getElementById("p1").value.trim();
+		// let b=document.getElementById("p2").value.trim();
+		// c=a+" "+d+" "+b;
+  //       document.getElementById("p3").value=c;
+	 //    }
+	    function click()
+	    {
+	    	var e=document.getElementById("p4").value;
+	    	if(e=="")
+	    	{
+	    		alert("fill this value");
+	    		//return false;
+	    	}
+	    	//return true;
+	    }
+	    
+	</script>
+</head>
+<body>
+	<form onsubmit="return click();">
+	<input type="text" name="" id="p" onkeyup="on();" placeholder="f name">
+	<input type="text" name="" id="p1" onkeyup="on();" placeholder="middle name">
+	<input type="text" name="" id="p2" onkeyup="on();" placeholder="l name">
+    <input type="text" name="" id="p3" placeholder="full name"><br><br>
+    <input type="text" name="" id="p4" placeholder="phone number">
+    <button onclick="click()">select</button>
+    <!-- <input type="submit" name="" value="Submit"> -->
+</form>
+
+
+
+</body></html>
